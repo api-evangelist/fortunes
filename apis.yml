@@ -1,7 +1,29 @@
 aid: fortunes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fortunes.png
 name: Fortunes
-description: Fortunes is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ForTunes was a Vienna-based mobile music data analytics application for
+  self-publishing and DIY artists, managers, and small labels. The app
+  collected and visualized performance data across Spotify, Apple Music,
+  SoundCloud, YouTube, Instagram, Facebook, and other platforms into a single
+  intelligent feed, with notifications for playlist adds and follower growth,
+  a Spotify playlist recommendation engine, public artist profiles, and team
+  collaboration. Backed by Speedinvest (2018), the company was acquired by
+  Utopia Music in 2023. As of this profile the primary web domain
+  (fortunes.io) no longer resolves and no public developer API, API
+  documentation, or developer portal is published; the product surface is the
+  consumer iOS and Android apps.
 url: https://raw.githubusercontent.com/api-evangelist/fortunes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,37 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Utopia Music in 2023; fortunes.io no longer resolves and no public API surface was found.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Music
+- Analytics
+- Data
+- Mobile
+- Artists
+- Music Tech
 apis: []
+common:
+- type: AppStore
+  name: ForTunes Analytics for Artists (iOS)
+  url: https://apps.apple.com/gb/app/fortunes-analytics-for-artists/id1181910925
+- type: GooglePlay
+  name: ForTunes Analytics for Artists (Android)
+  url: https://play.google.com/store/apps/details?id=io.fortunes.fortunes
+- type: Investor
+  name: Speedinvest portfolio profile
+  url: https://www.speedinvest.com/portfolio/fortunes
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
