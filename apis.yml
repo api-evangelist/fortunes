@@ -36,6 +36,8 @@ description: >-
   documentation, or developer portal is published; the product surface is the
   consumer iOS and Android apps.
 url: https://raw.githubusercontent.com/api-evangelist/fortunes/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
